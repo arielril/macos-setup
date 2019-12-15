@@ -1,6 +1,6 @@
 #!/bin/sh
 
-GITREPO=https://github.com/arielril/macos-setup/master
+GITREPO=https://raw.githubusercontent.com/arielril/macos-setup/master
 
 # Install Homebrew (installs xcode command line as well)
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
