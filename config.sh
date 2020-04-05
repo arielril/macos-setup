@@ -26,12 +26,12 @@ fisher add rafaelrinaldi/pure franciscolourenco/done laughedelic/pisces;
 set -g __done_min_cmd_duration 120000;
 
 # Haskell related stuff
-# cabal update
-# cabal install hlint
-# cabal install tasty-hunit
-# cabal install sqlite-simple
-# cabal install mysql-simple
-# cabal install postgresql-simple
+cabal update
+cabal install hlint
+cabal install tasty-hunit
+cabal install sqlite-simple
+ cabal install mysql-simple
+cabal install postgresql-simple
 
 # Vim
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
