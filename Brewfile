@@ -1,16 +1,16 @@
 tap "brewsci/science"
 tap "derailed/k9s"
+tap "heroku/brew"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-drivers"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
-brew "readline"
 brew "bat"
 brew "ghc"
 brew "cabal-install"
-brew "python"
+brew "readline"
 brew "cmake"
 brew "docker", link: false
 brew "fish"
@@ -20,6 +20,7 @@ brew "git-flow"
 brew "gnuplot"
 brew "libevent"
 brew "go"
+brew "gradle"
 brew "graphviz"
 brew "haskell-stack"
 brew "htop"
@@ -31,22 +32,29 @@ brew "libconfig"
 brew "make"
 brew "mas"
 brew "mysql"
+brew "ncdu"
 brew "netcat"
 brew "nmap"
 brew "node"
+brew "python"
 brew "ripgrep"
 brew "terminal-notifier"
+brew "tmux"
 brew "tree"
 brew "vim"
 brew "wget"
-brew "wireshark"
+brew "wireshark", link: false
 brew "derailed/k9s/k9s"
+brew "heroku/brew/heroku"
 cask "adoptopenjdk8"
 cask "dash"
 cask "dbeaver-community"
 cask "discord"
 cask "docker"
 cask "dozer"
+cask "eclipse-jee"
+cask "gns3"
+cask "google-chrome"
 cask "iterm2"
 cask "logitech-options"
 cask "notion"
@@ -57,19 +65,22 @@ cask "sourcetree"
 cask "spotify"
 cask "standard-notes"
 cask "vagrant"
-cask "vagrant-manager"
 cask "virtualbox"
 cask "visual-studio-code"
 cask "vmware-fusion"
+cask "wireshark"
 cask "xquartz"
 cask "zoomus"
 mas "1Password 7", id: 1333542190
-mas "AdBlock", id: 1402042596
 mas "Evernote", id: 406056744
+mas "Evernote Web Clipper", id: 1481669779
 mas "Gestimer", id: 990588172
+mas "Ghostery Lite", id: 1436953057
 mas "iStat Menus", id: 1319778037
 mas "Keynote", id: 409183694
+mas "Magnet", id: 441258766
 mas "Microsoft Excel", id: 462058435
+mas "Microsoft PowerPoint", id: 462062816
 mas "Microsoft Word", id: 462054704
 mas "MindNode", id: 1289197285
 mas "NordVPN IKE", id: 1116599239

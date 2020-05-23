@@ -9,6 +9,8 @@ brew update
 brew upgrade
 brew bundle --file=Brewfile
 
+fish
+
 # Copy base files from repo
 curl $GITREPO/.vimrc > ~/.vimrc
 curl $GITREPO/.gitconfig > ~/.gitconfig
@@ -19,7 +21,7 @@ npm i -g npm@latest
 npm i -g eslint gitignore jest knex moment-timezone nodemon ramda ts-node typescript speed-test mocha
 
 # install fisher
-curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fish;
+# curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fish;
 
 # add some packages using fisher
 fisher add rafaelrinaldi/pure franciscolourenco/done laughedelic/pisces;
@@ -30,7 +32,7 @@ cabal update
 cabal install hlint
 cabal install tasty-hunit
 cabal install sqlite-simple
- cabal install mysql-simple
+cabal install mysql-simple
 cabal install postgresql-simple
 
 # Vim
