@@ -1,6 +1,6 @@
 set nocompatible
 syntax on
-set nowrap
+set wrap
 set encoding=utf8
 set number
 set ruler
