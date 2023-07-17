@@ -1,5 +1,6 @@
 set nocompatible
 syntax on
+set list
 set wrap
 set encoding=utf8
 set number
@@ -11,6 +12,7 @@ set expandtab
 set shiftwidth=2
 set smarttab
 set directory^=$HOME/.vim/tmp// " All swap files go to a temporary directory
+set backspace=indent,eol,start
 
 filetype off
 
@@ -27,6 +29,7 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'w0rp/ale'
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'alvan/vim-closetag'
+Plugin 'AnsiEscPlugin'
 
 " All of your Plugins must be added before the following line
 call vundle#end()          
